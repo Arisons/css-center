@@ -19,12 +19,12 @@
 fit-content是CSS3中给width属性新加的一个属性值,它配合margin可以轻松实现水平居中, 目前只支持Chrome 和 Firefox浏览器.
 
 4) 使用flex布局, 可以轻松的实现水平居中, 子元素设置如下:
-
+```css
     .son{
 		display: flex;
 		justify-content: center;
     }
-
+```
 5) 使用css3 盒模型, 父元素display: box;box-pack: center;如下设置:
 
      .parent {
